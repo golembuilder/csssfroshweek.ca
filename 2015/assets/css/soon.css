@@ -601,7 +601,7 @@ PLUGINS
 }
 .tp-bullets {   
     z-index:1000; position:absolute;
-    left: 90% !important;
+    left: 50% !important;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     -moz-opacity: 1;
     -khtml-opacity: 1;
