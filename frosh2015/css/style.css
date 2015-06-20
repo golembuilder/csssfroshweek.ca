@@ -81,7 +81,9 @@ td a {
 
 /* Sponsors */
 h3 {
-    color: #1e8eaf;
+    color: white;
+    background-color: #1e8eaf;
+    padding: 5px;
 }
 
 .package ul li{
