@@ -9,32 +9,39 @@ body {
     color: white;
 }
 
+h2 {
+       color:  #e88530;
+}
+
+h1 {
+        color: #1e8eaf;
+}
+
 /* Schedule Page */
+
+
+
 table {
 	width: 55em;
 	border-collapse:collapse;
-        border: 1px solid #000000;
+        border: 1px solid black;
 }
-
 
 tr, td, th {
 	border-top: 0px;
 	border-bottom: 0px;
+        text-align: center;
 }
 
 
 td {
 	width: 20%;
-	text-align: center;
         border: thin solid black;
 }
 
-th {
-        text-align: center;
+td a {
+        color: white;
 }
-
-
-
 
 .schedule-nothing {
         border: thin solid black;
@@ -62,4 +69,12 @@ th {
 .table-title {
 	background-color: #e88530;
 	color: #FFFFFF;
+}
+
+.location {
+        color:  #1e8eaf;
+}
+
+.house {
+        color: #e88530;
 }
