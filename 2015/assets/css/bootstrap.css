@@ -55,6 +55,7 @@ abbr[title] {
 b,
 strong {
   font-weight: bold;
+  text-shadow: #e88530 0 0 13px, #1e8eaf 5px 5px 5px, #e88530 0 0 13px,#e88530 0 0 13px, #e88530 0 0 13px, #1e8eaf 5px 5px 5px, #1e8eaf 5px 5px 5px, #1e8eaf 5px 5px 5px;
 }
 dfn {
   font-style: italic;
