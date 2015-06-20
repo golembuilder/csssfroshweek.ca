@@ -13,25 +13,31 @@ body {
 table {
 	width: 55em;
 	border-collapse:collapse;
+        border: 1px solid #000000;
+}
+
+
+tr, td, th {
+	border-top: 0px;
+	border-bottom: 0px;
 }
 
 
 td {
 	width: 20%;
 	text-align: center;
+        border: thin solid black;
 }
 
-/*
-table {
-	border: 1px solid #000000;
+th {
+        text-align: center;
 }
 
-tr, td, th {
-	border-top: 0px;
-	border-bottom: 0px;
-}
-*/
+
+
+
 .schedule-nothing {
+        border: thin solid black;
     
 }
 
@@ -42,8 +48,7 @@ tr, td, th {
 
 .schedule-class {
 	background-color: #1e8eaf;
-	color: #FFFFFF;
-	
+	color: #FFFFFF;	
 }
 
 .table-schedule tr:nth-child(even) {
@@ -55,6 +60,6 @@ tr, td, th {
 }
 
 .table-title {
-	background-color: #0D1233;
+	background-color: #e88530;
 	color: #FFFFFF;
 }
