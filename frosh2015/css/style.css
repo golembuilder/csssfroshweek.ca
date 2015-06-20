@@ -75,7 +75,15 @@ td a {
         color:  #1e8eaf;
 }
 
-.house {
+.emphasis, .question {
         color: #e88530;
 }
 
+/* Sponsors */
+h3 {
+    color: #1e8eaf;
+}
+
+.package ul li{
+    color: #e88530;
+}

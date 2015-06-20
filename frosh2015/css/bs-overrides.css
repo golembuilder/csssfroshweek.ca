@@ -12,3 +12,7 @@
 .navbar-default a.navbar-brand {
         color: white;
 }
+
+.row-fluid {
+  padding-top: 100px;  
+}
