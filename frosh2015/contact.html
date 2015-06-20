@@ -18,27 +18,14 @@
     <![endif]-->
 
     <!-- CSSS FroshWeek Stylings -->
-    <link href="css/style.css">
+    <link href="css/style.css" rel="stylesheet">
 
   </head>
   <body>
-  		<nav class="navbar navbar-default" role="navigation">
-  				<div class="container-fluid">
-  					<div class="navbar-header">
-  						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-  							<span class="sr-only">Navigation Toggle</span>
-  							<span class="icon-bar"></span>
-  							<span class="icon-bar"></span>
-  							<span class="icon-bar"></span>
-  						</button>
-  						<a class="navbar-brand" href="http://csss.cs.sfu.ca"><img src="img/CSSSFinalLogo.png" alt="CSSS"></a>
-  					</div>
-
-  					<!-- Nav links -->
-  					<div class="collapse navbar-collapse" id="navbar-collapse-1">
-  					    <!-- Navigation Section -->
-  		<nav class="navbar navbar-default" role="navigation">
+         <!-- Navigation Section -->
+        <nav class="navbar navbar-default" role="navigation">
             <div class="container-fluid">
+                <!-- Navigation Header -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
                         <span class="sr-only">Navigation Toggle</span>
@@ -56,19 +43,39 @@
                         <li><a href="schedule.html">Schedule</a></li>
                         <li><a href="registration.html">Registration</a></li>
                         <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="contact.html" class="active">Contact Us</a></li>
                         <li><a href="sponsors.html">Sponsors</a><li>
                     </ul>
                 </div>
             </div>
-  	    </nav>
+        </nav>
+        
+        <!-- Content Section -->
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="col-xs-8 col-md-8">
+                    <h1>Contact Information</h1>
 
-  					</div>
-  				</div>
-  		</nav>
-    		<h1>Contact Us!</h1>
-			</div>
+                    <p>To register for FroshWeek please fill out our <a href="/registration/">Online Registration Form</a>.
 
+                    Also be sure to attend the first event:
+                            
+                    <p class="eventinfo">Registration and BBQ</p>
+                    <p class="eventinfo">Location: <span class="eventdetails">SFU Burnaby, ASB 9802</span></p>
+                    <p class="eventinfo">Time: <span class="eventdetails">Tuesday September 2rd 2014, 11:00am-12:00pm</span></p>
+
+                    <p>For more information about the Computing Science FroshWeek, including questions, concerns and sponsorship queries, please contact our FroshWeek team at: <a href="mailto:csss-frosh@sfu.ca">csss-frosh@sfu.ca</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="col-xs-8 col-md-8">
+                    <p class="text-muted">&copy; Copyright 2014 - <a href="http://csss.cs.sfu.ca/">Computing Science Student Society</a></p> 
+                </div>
+            </div>
+        </footer>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

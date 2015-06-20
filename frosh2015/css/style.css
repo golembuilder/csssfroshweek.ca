@@ -1,1 +1,60 @@
 /* Frosh Week 2015 Website Stylings */ 
+
+/*
+e88530 orange
+1e8eaf blue
+*/
+body {
+    background: black;
+    color: white;
+}
+
+/* Schedule Page */
+table {
+	width: 55em;
+	border-collapse:collapse;
+}
+
+
+td {
+	width: 20%;
+	text-align: center;
+}
+
+/*
+table {
+	border: 1px solid #000000;
+}
+
+tr, td, th {
+	border-top: 0px;
+	border-bottom: 0px;
+}
+*/
+.schedule-nothing {
+    
+}
+
+.schedule-event {
+	color: #FFFFFF;    
+	background-color: #e88530;
+}
+
+.schedule-class {
+	background-color: #1e8eaf;
+	color: #FFFFFF;
+	
+}
+
+.table-schedule tr:nth-child(even) {
+
+}
+
+.table-schedule tr:nth-child(odd) {
+    
+}
+
+.table-title {
+	background-color: #0D1233;
+	color: #FFFFFF;
+}
