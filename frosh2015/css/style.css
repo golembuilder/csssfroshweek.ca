@@ -79,6 +79,10 @@ td a {
         color: #e88530;
 }
 
+.alt_emphasis {
+        color: #1e8eaf;
+}
+
 @-moz-document url-prefix() {
         fieldset {display: table-cell;}
 }
@@ -90,7 +94,7 @@ h3 {
     padding: 5px;
 }
 
-.package ul li{
+.package ul li, {
     color: #e88530;
 }
 
