@@ -79,6 +79,10 @@ td a {
         color: #e88530;
 }
 
+@-moz-document url-prefix() {
+        fieldset {display: table-cell;}
+}
+
 /* Sponsors */
 h3 {
     color: white;
@@ -92,4 +96,5 @@ h3 {
 
 .cutout {
     background-color: #e88530;
+    padding: 5px;
 }
