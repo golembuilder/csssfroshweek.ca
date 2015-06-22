@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="New College Orientation 2014 Website">
+    <meta name="author" content="Zach">
+    <meta name="creator" content="Carlos Alvarez - Alvarez.is - blacktie.co">
+    <meta name="attribution_parties" content="SHIELD free bootstrap theme - blacktie.co licensed under CC3">
+    <link rel="shortcut icon" href="assets/img/team/CSSSFinalLogoMini.png">
+
+    <title>SFU Computer Science Frosh 2015</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <link href="assets/css/animate-custom.css" rel="stylesheet">
+
+
+    
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    
+    <script src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+    
+    <style>
+      #map_canvas {
+        height: 400px;
+        background-color: #CCC;
+      }
+    </style>
+    <script>
+    		
+          function initialize() {
+          	var SFU = new google.maps.LatLng(49.277601,-122.914379);
+            var map_canvas = document.getElementById('map_canvas');
+            var map_options = {
+              center: SFU,
+              zoom: 16,
+              scrollwheel: false,
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(map_canvas, map_options)
+            var marker = new google.maps.Marker({
+                position: SFU,
+                map: map,
+                title: 'Hello World!'
+            });
+          }
+          
+          google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
+  
+  
+  	<div id="navbar-main">
+      <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <img src="assets/img/team/CSSSFinalLogoMini.png" style="height:36px;width:36px;margin-top:6px;background-color:E0AA0F;">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#home" class="smoothScroll">Home</a></li>
+			<li> <a href="#services" class="smoothScroll"> What CSSS?</a></li>
+			<!-- <li> <a href="#team" class="smoothScroll"> Team</a></li> -->
+			<!-- <li> <a href="#portfolio" class="smoothScroll"> Portfolio</a></li> -->
+			<li> <a href="#schedule" class="smoothScroll"> Schedule &amp; FAQ</a></li>
+
+			<li> <a href="#testimonials" class="smoothScroll"> Testimonials</a></li>
+			<li> <a href="#team" class="smoothScroll">Sponsors</a></li>
+			<li> <a href="#blog" class="smoothScroll"> Contact</a></li>
+			<li> <button style="margin-top:9px;" type="button" class="btn btn-info" onclick='window.location.href = "https://docs.google.com/forms/d/1KcNNdA1Iy11nPLnjwRf1H5aIw_VuB8cx5CHDvjtShYI/viewform?usp=send_form";' target="_blank">Sign Up Now!</button></li>
+        </div><!--/.nav-collapse  -->
+      </div>
+    </div>
+    </div>
+
+  
+		<!-- ==== HEADERWRAP ==== -->
+	    <div id="headerwrap" id="home" name="home">
+			<header class="clearfix">
+	  		 		<h1>SFU Computer Science Frosh 2015</h1>
+	  		 		<button type="button" class="btn btn-info" onclick='window.location.href = "https://docs.google.com/forms/d/1KcNNdA1Iy11nPLnjwRf1H5aIw_VuB8cx5CHDvjtShYI/viewform?usp=send_form";'>Sign Up Now!</button>
+	  		</header>	    
+	    </div><!-- /headerwrap -->
+
+		<!-- ==== GREYWRAP ==== -->
+		
+		
+		<!-- ==== ABOUT ==== -->
+		
+		
+		<!-- ==== SECTION DIVIDER1 -->
+		
+		
+		
+		<!-- ==== SERVICES ==== -->
+		<div class="container" id="services" name="services">
+		<div class="row">
+				<br>
+				<br>
+				<hr>
+				<h1 class="centered">What is CSSS?</h1>
+				<hr>
+				<br>
+				<div class="col-lg-offset-2 col-lg-8">
+					<p style="text-align:center;">The <span class="emphasis">Computing Science Student Society</span> is a departmental student society based out of Simon Fraser University. Operating under the Simon Fraser Student Society, we act to recognize the academic and recreational demands of Computing Science students, providing them with a better experience at SFU. <br><br>We have seats on the School of Computing Science Undergraduate Program Committee and the Faculty of Applied Science Undergraduate Curriculum Committee. The society also facilitates recreational activities, such as LAN parties, board game nights and movie nights, as well as joining the Simon Fraser Student Society and other departmental student societies for events. On a day-to-day level, the society provides services for Computing Science students such as a common area, printing, and inexpensive beverages.</p>
+				</div><!-- col-lg -->
+			</div><!-- row -->
+			<div class="row">
+				<hr>
+				<h1 class="centered">What is Frosh?</h1>
+				<hr>
+				<br>
+				<div class="col-lg-offset-2 col-lg-8">
+					<p style="text-align:center;">class="emphasis">FroshWeek</span> is the ultimate introductory experience for Computing Science students at Simon Fraser University.<br><br> Organized by the <span class="emphasis">Computing Science Student Society</span>, in partnership with the School of Computing Science, it is a week of fun-filled activities designed to orient, entertain and educate new university students with a Computing Science twist<br><br>Held during the <span class="emphasis">first week of the Fall semester at SFU (Sept. 8-12)</span>, FroshWeek is organized by students, for students. Incoming students receive: an in-depth introduction to the facilities available to them as Computing Science students; many entertaining on- and off-campus challenges and diversions to motivate, amuse, and connect them with other students; valuable advice from their elders with respect to courses and the university experience in general; and some free food and tools to make the transition to university much smoother.<br><br>The <span class="emphasis">Computing Science Student Society</span> is a departmental student society based out of Simon Fraser University. Operating under the Simon Fraser Student Society, we act to recognize the academic and recreational demands of Computing Science students, providing them with a better experience at SFU. We have seats on the School of Computing Science Undergraduate Program Committee and the Faculty of Applied Science Undergraduate Curriculum Committee. The society also facilitates recreational activities, such as LAN parties, board game nights and movie nights, as well as joining the Simon Fraser Student Society and other departmental student societies for events. On a day-to-day level, the society provides services for Computing Science students such as a common area, printing, and inexpensive beverages.</p>
+					<h3 class="centered"><p>With that being said, welcome to Simon Fraser University! This is CSSS Frosh 2015.</p></h3>
+				</div><!-- col-lg -->
+			</div><!-- row -->
+			
+			
+		</div><!-- container -->
+
+		<div class="container" id="gallery" name="gallery">
+			<div style="width:640px; margin: 0 auto" id="this-carousel-id" class="carousel slide centered"><!-- class of slide for animation -->
+			  <div class="carousel-inner">
+			    <div class="item active"><!-- class of active since it's the first item -->
+			      <img src="assets/img/gallery/1.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/2.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/3.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/4.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/5.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/6.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/7.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/8.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/9.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/10.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/11.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/12.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/13.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/14.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/15.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/16.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/17.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/18.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/19.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/20.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/21.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/22.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/23.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/24.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/25.png" alt="" />
+			    </div>
+			    <div class="item">
+			      <img src="assets/img/gallery/26.png" alt="" />
+			    </div>
+			  </div><!-- /.carousel-inner -->
+			  <!--  Next and Previous controls below
+			        href values must reference the id for this carousel -->
+			    <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
+			    <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
+			</div><!-- /.carousel -->
+			<p style="text-align: center">Click on the left and right sides of the photos to navigate.</p>
+		</div>
+  		
+
+		
+
+		<!-- ==== TEAM MEMBERS ==== -->
+		
+
+		<!-- ==== GREYWRAP ==== -->
+		<!-- greywrap -->
+		
+		<!-- ==== SECTION DIVIDER3 -->
+		
+
+		<!-- ==== SECTION DIVIDER4 ==== -->
+		<!-- ==== SECTION DIVIDER2 -->
+		
+
+		
+		
+		
+		<!-- ==== SECTION DIVIDER6 ==== -->
+		
+		<div class="row mt">
+			    		
+		<!-- FAQ & GLOSSARY -->
+		<div class="container" id="schedule" name="schedule">
+			<br>
+			<br>
+			<br>
+            
+				<div class="row text-center" id="schedule">
+                    
+                        <div class="container-fluid">
+            <div class="row-fluid">                
+                <div class="col-xs-12 col-md-8 col-md-offset-2">
+                    <hr>
+				<h1 href="#events" class="centered">Schedule</h1>
+				<hr>
+                    <div class="table-responsive">
+			<table class="table">
+				<thead>
+					<tr class="table-title">
+						<th>Time</th>
+						<th id="tue">Tuesday (Sept. 8)</th>
+						<th id="wed">Wednesday (Sept. 9)</th>
+						<th id="thu">Thursday (Sept. 10)</th>
+						<th id="fri">Friday (Sept. 11)</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>8:30 am</td>
+						<td header="tue" class="schedule-nothing"></td>
+						<td header="wed" class="schedule-class">MATH 150/151</td>
+						<td header="thu" class="schedule-nothing"></td>
+						<td header="fri" class="schedule-class">MATH 150/151</td>
+					</tr>
+
+					<tr>
+						<td>9:30 am</td>
+						<td header="tue" class="schedule-nothing"></td>
+						<td header="wed" class="schedule-nothing"></td>
+						<td header="thu" class="schedule-class" rowspan="2">CMPT 120/125</td>
+						<td header="fri" class="schedule-nothing"></td>
+					</tr>
+
+					<tr>
+						<td>10:30 am</td>
+						<td header="tue" class="schedule-class">CMPT 120/125 D100</td>
+						<td header="wed" class="schedule-nothing"></td>
+						<td header="fri" class="schedule-nothing"></td>
+					</tr>
+
+					<tr>
+						<td>11:30 am</td>
+						<td header="tue" class="schedule-class">MACM 101 D100</td>
+						<td header="wed" class="schedule-event" rowspan="2"><a href="#Coop">Co-op Luncheon and Information Session</a></td>
+						<td header="thu" class="schedule-class">MACM 101 D100</td>
+						<td header="fri" class="schedule-nothing"></td>
+					</tr>
+
+					<tr>
+						<td>12:30 pm</td>
+						<td header="tue" class="schedule-event" rowspan="2"><a href="#Registration">BBQ &amp; RAMing Ceremony</a></td>
+						<td header="thu" class="schedule-event" rowspan="2"><a href="#Stencyl">Stencyl Workshop</a></td>
+						<td header="fri" class="schedule-event" rowspan="4"><a href="#Stencyl">Stencyl Workshop</a></td>
+					</tr>
+
+					<tr>
+						<td>1:30 pm</td>
+						<td header="wed" class="schedule-event" rowspan="3">Survival Training</td>
+					</tr>
+
+					<tr>
+						<td>2:30 pm</td>
+                                                <td header="tue" class="schedule-class" rowspan="2">CMPT 120 D200</td>
+						<td header="thu" class="schedule-class">CMPT 120 D200</td>
+					</tr>
+
+					<tr>
+						<td>3:30 pm</td>
+						<td header="thu" class="schedule-nothing"></td>
+					</tr>
+
+					<tr>
+						<td>4:30 pm</td>
+						<td header="tue" class="schedule-event" rowspan="2"><a href="#Stencyl">Stencyl Workshop</a></td>
+						<td header="wed" class="schedule-event" rowspan="2"><a href="#Stencyl">Stencyl Workshop</a></td>
+                                                <td header="thu" class="schedule-event" rowspan="5"><a href="#PacMacro">Pac Macro</a></td>
+                                                <td header="fri" class="schedule-event" rowspan="5"><a href="#PhotoHunt">Photohunt</a></td>
+					</tr>
+
+
+					<tr>
+						<td>5:30 pm</td>
+					</tr>
+
+					<tr>
+						<td>6:30 pm</td>
+						<td header="tue" class="schedule-nothing"></td>
+						<td header="wed" class="schedule-nothing"></td>
+					</tr>
+
+					<tr>
+						<td>7:30 pm</td>
+						<td header="tue" class="schedule-nothing"></td>
+						<td header="wed" class="schedule-nothing"></td>
+					</tr>
+
+					<tr>
+						<td>8:30 pm</td>
+						<td header="tue" class="schedule-nothing"></td>
+						<td header="wed" class="schedule-nothing"></td>
+					</tr>
+
+					<tr>
+						<td>9:30 pm</td>
+						<td header="tue" class="schedule-nothing"></td>
+						<td header="wed" class="schedule-nothing"></td>
+						<td header="thu" class="schedule-event" rowspan="2"><a href="#TeamDinner">Dinner Downtown</a></td>
+						<td header="fri" class="schedule-event" rowspan="2"><a href="#Madness">Midnight Madness</a></td>
+					</tr>
+					
+					<tr>
+						<td>10:30 pm</td>
+						<td header="tue" class="schedule-nothing"></td>
+						<td header="wed" class="schedule-nothing"></td>
+					</tr>
+
+				</tbody>
+			</table>
+                    </div>
+                    </div>
+                </div>
+                            
+                            
+                            
+                            
+<!--=================================================================================================-->
+				  <p>For full event descriptions, please see 'Events' below.</p>
+				</div>
+				<hr>
+				<h1 href="#events" class="centered">Events</h1>
+				<hr>
+				
+				
+				<div class="col-lg-6">
+					<p><b>Registration and BBQ:</b> Whether you have registered online or are planning to register in person on this day, come out for a free BBQ and to meet some of your professors and other CS students for the first time. Look for the registration booth to get your t-shirt and swag before heading out for the feast..<br><span><i>Location: SFU Burnaby, ASB Atrium</i></span></p>
+					
+					
+					<p><b>RAM'ing Invocation Ceremony:</b> You, the few, the proud, the chosen shall be anointed with our token of fellowship as CS students. This ancient and mystical ceremony must be faced with awe and reverence!<br><span><i>Location: SFU Burnaby, TBA</i></span></p>
+					
+					
+					<p><b>Information Session:</b> Learn about Co-op, Computing Science, Women in Computing Science, and the Computing Science Student Society.  Learn about all the opportunities open you and what to look forward to in your four (or more) years at SFU.  Food and refreshments will be provided as you have a chance to talk with the computing science students and co-op advisors.<br><span><i>Location: SFU Burnaby, IRMACS Theatre</i></span></p>
+					
+
+					<p><b>Survival Training:</b> Surving your first year at SFU involves cunning, sttrategy, and the ability to dodge people in the hallways.  What better way to practice these skills then with a game of capture the flag!  Join others in your <span class="emphasis">House</span> and crush those that oppose you!<br><span><i>Location: AQ Gardens</i></span></p>
+                    
+                    <p><b>Stencyl Workshop:</b> Intended for new students with <strong>zero</strong> experience in programming, this series of progressive workshops will introduce you to general programming concepts without having to worry about syntax and other issues.  Work together with your <span class="emphasis">House</span> to plan out and create a simple 2D game.  At the end of the week, you get to play the games that everyone else made!<span><i>Location: SFU Burnaby, ASB Atrium + TASC 9204</i></span></p>
+					
+
+
+				</div><!-- col-lg-6 -->
+				
+				<div class="col-lg-6">
+					
+					<p><b>Photo Hunt:</b>There are so many strange things in our beautiful city, and now with our help we can show you even more and take pictures of it too! Perhaps there will also be a secret mission on behalf of your <span class="emphasis">House</span> that needs completition. Want to know more? Well, you'll just have to wait, won't you..<br><span><i>Location: Starts at SFU Burnaby, ASB Atrium. Goes downtown, returns to SFU Burnaby.</i></span></p>
+
+					<p><b>Team Strategy Dinner:</b>As you lick your wounds from the field of battle, know that it was but a small rehearsal in a larger campaign. As you sit amongst your brethren, fill your stomach with food so that it may prepare you for the events that lay ahead of you. Discuss strategy and seek wisdom from your leaders. Above all, prepare yourself for a long night of hunting, cheering and celebration as you will match wits with yourself, your peers and most dastardly of all: the filthy engineers.<br><span><i>Location: SFU Burnaby, Club Ilia</i></span></p>
+
+					<p><b>Midnight Madness:</b> Learn the joy of all-nighters with all of the fun and none of the work! First, help us to once again crush the Engineers in our Frosh Slurpee drink-off, dodgeball game, and tug-of-war. We'll then proceed to keep you up all night with an adrenaline filled race around campus containing copious quantities of games (both video and non), more random prize opportunities and other such mischief. <br><br>Make sure to tell your parents not to wait up. You'll be... studying... This event goes all night so prepare to be at SFU till the early hours of the morning on Saturday. Prizes will be given out in the middle of the night for the points you earned during the week, so make sure to stay in order to guarantee yourself something nice.<span><i>Location: SFU Burnaby, ASB Atrium + TASC 9204</i></span></p>
+
+					
+
+				</div><!-- col-lg-6 -->
+
+
+			</div><!-- row -->
+			
+		</div><!-- container -->
+
+		<div class="container" id="faq" name="faq">
+		<br>
+			<div class="row">
+				<br>
+				<hr>
+				<h1 class="centered">FAQ</h1>
+				<hr>
+			</div><!-- /row -->
+			
+			    			
+		</div>
+			<div class="col-lg-6 centered">
+
+					<p style="text-align:center"><b>What's the difference between FroshWeek and <a href="https://www.sfu.ca/students/orientation/new-students.html">SFU Welcome Day</a>?</p></b></p>
+					<p style="text-align:center"><p>SFU Welcome Day is a very informative event held in August that teaches you where stuff on campus is, how to be successful, and prepares you for a solid start at university. You will meet one upper-year student, called your Orientation Leader (OL) who may or may not be in Computing Science, and ~15 other students in Applied Science. It's useful, especially for those who don't know the campus very well. FroshWeek is just pure, unadulterated FUN, and is for all CS students, regardless of how well you know the campus. You will meet dozens of wise upper-year students and other first years in CS. You will learn things the Orientation Leaders aren't allowed to tell you. You'll compete for awesome prizes, and receive tons of food. You'll make memories that you'll look back on 20 years down the road. Awesome! FroshWeek is the easiest way to meet  people, and is completely different from the 2 days of information you'll receive during SFU Orientation.</p>
+
+					<p style="text-align:center"><b>Will there be alcohol?</b></p>
+					<p style="text-align:center">No! We will not be providing you with alcohol.</p>
+
+					<p style="text-align:center"><b>Is Frosh Week worth it?</b></p>
+					<p style="text-align:center">Definitely! This is going to be the best week of your undergraduate life. Also, it’s a great way to instantly make friends and know the ins and outs of campus and school life!</p>
+
+					<p style="text-align:center"><b>Do I need to attend all the events in the schedule as I have classes that conflicts with them?</b></p>
+					<p style="text-align:center">We know that we have lots going on during the first week and although it would be great to attend all of them we know it is not realistically possible. So we have marked the events that are essential to go to, i.e. Registration BBQ and Midnight Madness.. If you have any classes that conflicts with those events contact us using <a href="mailto:csss@sfu.ca">csss@sfu.ca</a> as early as possible and we'll let you know what to do.</p>
+
+					<p style="text-align:center"><b>What is the best way to get more information about FroshWeek?</b></p>
+					<p style="text-align:center"> The best way to get information is checking the website periodically since we add more content to it as we get closer to FroshWeek. However if you have a question that hasn't been answered, send our <a href="mailto:csss@sfu.ca">team</a> an email and we will get back to you as soon as possible. If it is a general question we will post it on the website for everybody else as well.</p>
+
+					<p style="text-align:center"><b>I am unable to make an event. Can events be missed, entered late, or left early?</b></p>
+					<p style="text-align:center"> Yes. We understand that students may not be able to make every event. Although, we would prefer it if all participants were able to make these events: Registration BBQ, RAMing Ceremony, PacMacro and Late Night Lunacy as they are essential to the FroshWeek experience. If you need to leave an event early, just let a Frosh leader know what's going on. If you need to join an event late, please find out before hand where we will be, as some of our events will move around to different areas.</p>
+
+
+				</div><!-- col-lg-6 -->
+				
+				<div class="col-lg-6 centered">
+					
+					<p style="text-align:center"><b>I have a lab/tutorial during one of the events.</b></p>
+					<p style="text-align:center"> It isn't mentioned in your schedule, but generally during the first week of classes there are no tutorials or labs. Make sure you still attend your lecture and be attentive, ensuring this is the case for your class. However, you will likely be able to attend the event.</p>
+
+					<p style="text-align:center"><b>I am located at the Surrey campus, can I still attend FroshWeek?</b></p>
+					<p style="text-align:center"> Although some of the events are held at the Burnaby campus, FroshWeek is open to any and all Computing Science Students. Feel free to come join us for any of the events that you are able to make. Unfortunately some events will be during your classes at Surrey, other events are held later in the day or in downtown Vancouver. Check out the <a href="schedule.html">schedule</a> for more details on event locations and times. Additionally, Software Systems and Mechatronics have their own FroshWeek events at the Surrey campus.</p>
+
+                    <p style="text-align:center"><b>How much does FroshWeek cost?</b></p>
+					<p style="text-align:center">It's free!</p>
+
+					<p style="text-align:center"><b>Do I have to go to every event?</b></p>
+					<p style="text-align:center">While we do recommend you go to every event, of course you don’t have to. But going to all the events gives you the full experience of Frosh Week, as well as New College and the rest of campus. Plus, let’s be honest, free food AND free stuff is a combination you don’t want to miss. Especially when there’s the possibility that you meet someone awesome just 5 minutes later.</p>
+
+					<p style="text-align:center"><b>I am a mature student or am already very familiar with campus and services offered. Do I still need to go?</b></p>
+					<p style="text-align:center">Yes! Of course! Don't think of FroshWeek as an orientation, but a chance to meet a lot of the people you will be studying and working with for the next few years and party it up a little. The point of it all, aside from meeting people, is to have fun!</p>
+
+					<p style="text-align:center"><b>What if I don't know anyone?</b></p>
+					<p style="text-align:center"> Don’t worry! Everyone is in the same boat! Start with a simple “Hey, my name is” and you should be fine. If you’re super concerned about not knowing anyone, we’re going to put you in small groups first so that you can be more comfortable.</p>
+
+
+					
+
+
+
+					<p style="text-align:center"><b>Where should I go on the first day?</b></p>
+					<p style="text-align:center"> Atrium of Applied Science Building<br><br><br><br><br><br><br><br></p>
+					
+				</div><!-- col-lg-6 -->
+				<div class="row">
+				<div id="map_canvas" ></div>
+				<br>
+				
+			</div><!-- row -->
+		</div><!-- /container -->
+
+		<div class="container" id="testimonials" name="testimonials">
+			<div class="row">
+				<hr>
+				<h1 class="centered">Testimonials</h1>
+				<hr>
+				<div class="col-lg-3 centered">
+					<img class="img img-circle" src="assets/img/testimonial/alicia.png" height="120px" width="120px" alt="">
+					<br>
+					<h4><b>Alicia Lazaro</b></h4>
+					<p>Orientation was the best week of my university career thus far! As an old New College Orientation Leader once told me, frosh is the one event during your years spent at UofT that you remember during your last day at Convocation.</p>
+				</div><!-- col-lg-3 -->
+				
+				<div class="col-lg-3 centered">
+					<img class="img img-circle" src="assets/img/testimonial/filippo.png" height="120px" width="120px" alt="">
+					<br>
+					<h4><b>Filippo Giliberti</b></h4>
+					<p>Hello New Gnu College students! My name is Filippo and I think I'm among the biggest fans of Frosh. Wanna know why? The reason is simple... Frosh is AMAZING because it gives us the possibility to get out of our shells. Being a yellow t-shirt was the best experience I had so far and helped me to build the friendships I'll remember for all my life. So, you, new students, don't be afraid to wear your yellow t-shirt.  Don't be afraid to cheer with your leaders.  Don't be afraid to say "Hi!, what up?" to an other new Gnu student. This year I'm wearing the green t-shirt, so I'm on the other side, trying to inspire you, trying to make you dance, trying to make you smile all week long. So if you see me around just say "Ciao Filippo! Che fai?". </p>
+				</div><!-- col-lg-3 -->
+				
+				<div class="col-lg-3 centered">
+					<img class="img img-circle" src="assets/img/testimonial/katrina.png" height="120px" width="120px" alt="">
+					<br>
+					<h4><b>Katrina Chiu</b></h4>
+					<p>I can still remember everything I felt the first morning of Frosh – apprehensive (had I, by some miracle, picked the right college at random?), jetlagged (having flown in to Toronto the day before on a 15 hour flight), and lonely (not knowing a single face in a sea of yellow frosh shirts). By the end of the week, every anxious thought and uneasy feeling I had dissipated entirely. The very same strangers in yellow shirts became future fellow frosh leaders and good friends to this day. All traces of homesickness vanished as quickly as my voice did in every event that were as equally engaging as they were exhausting. From my experiences solely based on Orientation, I knew I had done right by choosing to be a part of New College and its incredibly supportive, dynamic community.</p>
+				</div><!-- col-lg-3 -->
+				
+				<div class="col-lg-3 centered">
+					<img class="img img-circle" src="assets/img/testimonial/emma.png" height="120px" width="120px" alt="">
+					<br>
+					<h4><b>Emma Lawrence</b></h4>
+					<p>Frosh Week was an amazing experience for me. It really brought me out of my shell. I've always been fairly shy, but I quickly found a group of friends in the first few days of Frosh. Getting all decked out in New College colours and paint made me feel like a part of something, and I was able to come out of my comfort zone, because chanting and making friends and being crazy was the cool thing to do. I'm so happy with my Frosh experience and it's made me want to go back as a Frosh Leader this year to help the next batch of NC students feel just as home as I am at U of T.</p>
+				</div><!-- col-lg-3 -->
+
+				
+			</div><!-- row -->
+		</div><!-- container -->
+
+		<section class="section-divider textdivider divider4">
+
+			<div class="container">
+						<div class="container" id="team" name="team">
+		<div class="row">
+			<br>
+			<br>
+				<hr>
+				<h1 class="centered">Sponsors</h1>
+				<hr>
+				
+				<br>
+				<div class="col-md-4 centered">
+					<img class="img img-circle" src="assets/img/team/goliath.png" height="120px" width="120px" alt="">
+					<br>
+					<h4><b>Alex</b></h4>
+					<p><b>Year:</b> 4th
+                         <br><b>Program of study:</b> Toxicology 
+                        <br><b>Hometown:</b> Toronto 
+                        <br><b>Favourite place to hang out on campus:</b> New College. Holla! 
+                        <br><b>Favourite way to procrastinate:</b> I’ll come up with something funny and get back to you. 
+                        <br><b>Favourite part about living in Toronto:</b> Well, the squirrels are pretty cute.</p>
+				</div><!-- col-md-4 -->
+				<div class="col-md-4 centered">
+					<img class="img img-circle" src="assets/img/team/alicia.png" height="120px" width="120px" alt="">
+					<br>
+					<h4><b>Alicia</b></h4>
+					<p><b>Year:</b> 3rd
+					<br><b>Program of study:</b> Major in Political Science and Double Minor in Spanish and Sociology 
+					<br><b>Hometown:</b> Born in Mississauga but moved to Keswick when I was really little! 
+					<br><b>Favourite place to hang out on campus:</b>New College Student Council office :) 
+					<br><b>Favourite way to procrastinate:</b> watching Make-up videos on YouTube 
+					<br><b>Favourite part of living in Toronto:</b> TTC</p>
+				</div><!-- col-md-4 -->
+				<div class="col-md-4 centered">
+					<img class="img img-circle" src="assets/img/team/goliath.png" height="120px" width="120px" alt="">
+					<br>
+					<h4><b>Daniel</b></h4>
+					<p><b>Year:</b> 4th
+					<br><b>Program of study:</b> Health and Disease/Environmental Studies
+					<br><b>Hometown:</b> Scarborough, Ontario
+					<br><b>Favourite place to hang out on campus: </b> NCSC Office!
+					<br><b>Favourite way to procrastinate:</b> Watching TV and Movies! I'm a fanatic!
+					<br><b>Favourite part of living in Toronto:</b></p> The ability to walk ANYWHERE within 30 minutes!
+				</div><!-- col-md-4 -->
+
+			</div><!-- row -->
+			<div class="row">
+				<div class="col-md-4 centered">
+					<img class="img img-circle" src="assets/img/team/debbie.png" height="120px" width="120px" alt="">
+					<br>
+					<h4><b>Debbie</b></h4>
+					<p><b>Year:</b> 4th
+                         <br><b>Program of study:</b> Major in Cell and Molecular biology and minor in History
+                        <br><b>Hometown:</b> Richmond Hill, Ontario
+                        <br><b>Favourite place to hang out on campus:</b> Wetmore Lounge
+                        <br><b>Favourite way to procrastinate:</b> Watching reruns of Friends and Modern Family
+                        <br><b>Favourite part about living in Toronto:</b>  Late night food runs to Chinatown
+                        <br><b>Favourite Late Night Fast Food Restaurant Near New College:</b>Fresca Pizza and Pasta</p>
+				</div><!-- col-md-4 -->
+				<div class="col-md-4 centered">
+					<img class="img img-circle" src="assets/img/team/diane.png" height="120px" width="120px" alt="">
+					<br>
+					<h4><b>Diane</b></h4>
+					<p><b>Year:</b> 4th
+					<br><b>Program of study:</b> Immunology and Human Biology: Health and Disease
+					<br><b>Hometown:</b> Ottawa, Ontario
+					<br><b>Favourite place to hang out on campus:</b>Sitting area outside of Ivey Library
+					<br><b>Favourite way to procrastinate:</b> YouTube
+					<br><b>Favourite part of living in Toronto:</b> The shopping and there’s always something happening!</p>
+				</div><!-- col-md-4 -->
+				<div class="col-md-4 centered">
+					<img class="img img-circle" src="assets/img/team/faye.png" height="120px" width="120px" alt="">
+					<br>
+					<h4><b>Faye</b></h4>
+					<p><b>Year:</b> 3rd
+					<br><b>Program of study:</b> Bioinformatics & Computational Biology
+					<br><b>Hometown:</b> Mississauga, Ontario
+					<br><b>Favourite place to hang out on campus: </b> Gerstein Library, because I'm a nerd :(
+					<br><b>Favourite way to procrastinate:</b> Watching cat videos
+					<br><b>Favourite part of living in Toronto:</b>There's always something to cure your 2am hangover hunger. Also, Suits films in Toronto. </p> 
+				</div><!-- col-md-4 -->
+			</div>
+			
+			</div>
+		</div>
+
+		
+		</section><!-- section -->
+
+		<!-- ==== BLOG ==== -->
+		<div class="container" id="blog" name="blog">
+		<br>
+			<div class="row">
+				<br>
+				<hr>
+				<h1 class="centered">Connect With Us on Social Media!</h1>
+				<hr>
+			</div><!-- /row -->
+			
+			<div class="row" style="text-align:center;">
+				<script>
+					function tumblrRedirect() {
+					    window.location.href = "http://ncfrosh.tumblr.com/";
+					}
+					function facebookRedirect() {
+					    window.location.href = "https://www.facebook.com/groups/1449391685304687/";
+					}
+					function instagramRedirect() {
+					    window.location.href = "https://instagram.com/ncfrosh";
+					}
+					function twitterRedirect() {
+					    window.location.href = "https://twitter.com/ncfrosh";
+					}
+				</script>
+				<button type="button" class="btn btn-default" onclick="instagramRedirect()"> <span class="icon icon-instagram" style="font-size:64px; color:#517fa4;"></span> </button>
+
+				<button type="button" class="btn btn-default" onclick="tumblrRedirect()">
+				<span class="icon icon-tumblr" style="font-size:64px; color:#32506d;"></span>
+				</button>
+
+				<button type="button" class="btn btn-default" onclick="facebookRedirect()">
+				<span class="icon icon-facebook" style="font-size:64px; color:#3b5998;"></span>
+				</button>
+				
+				<button type="button" class="btn btn-default" onclick="twitterRedirect()">
+				<span class="icon icon-twitter" style="font-size:64px; color:#00aced"></span>
+				</button>
+			</div><!-- /row -->
+			<br>
+			<br>
+			<div class="col-lg-4 col-lg-offset-4 centered">
+			    			<h3>Contact Us</h3>
+			    			
+		</div>
+			<div class="col-lg-6 centered">
+
+					<p><span style="margin-left:20px">Herun Tarun and Sophia Zarsky</span> <br>
+					<span style="margin-left:20px">Orientation Chairs</span> <br>
+					<span style="margin-left:20px">New College Student Council</span> <br>
+					<span class="icon icon-home"></span> 45 Willcocks Street, G100<br/>
+						<span style="margin-left:10px">Toronto, Ontario</span><br/>
+						<span >M5S 1C7</span><br/>
+						<span class="icon icon-phone"></span> +1 (416) 946-0562  <br/>
+						<span class="icon icon-envelop"></span><a href="mailto:csss@sfu.ca">csss@sfu.ca</a> <br/>
+						</p>
+
+
+				</div><!-- col-lg-6 -->
+				
+				<div class="col-lg-6 centered">
+					
+					<p><span style="margin-left:20px">Jill Charnaw-Burger</span> <br>
+					<span style="margin-left:20px">Associate Director, Student Life and Leadership</span> <br>
+					<span style="margin-left:20px"> Office of Residence and Student Life </span> <br>
+					<span class="icon icon-home"></span> 40 Willcocks Street <br/>
+						<span style="margin-left:10px">Toronto, Ontario</span><br/>
+						<span >M5S 1C6</span><br/>
+						<span class="icon icon-phone"></span> +1 (416) 946-3088   <br/>
+						<span class="icon icon-envelop"></span> <a href="mailto:#">  new.studentlife@utoronto.ca</a> <br/>
+						</p>
+				</div><!-- col-lg-6 -->
+		</div><!-- /container -->
+            
+            
+		</section><!-- section -->
+		<div id="footerwrap">
+			<a href="conditions.html">Terms and Conditions</a><p class="text-muted">&copy; Copyright 2015 - <a href="http://csss.cs.sfu.ca/">Computing Science Student Society</a></p> 
+		</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+		
+    
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/retina.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-func.js"></script>
+	
+  </body>
+</html>
