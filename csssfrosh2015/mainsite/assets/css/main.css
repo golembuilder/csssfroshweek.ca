@@ -163,7 +163,6 @@ a img {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
     font-weight: 300;
-    color: #e88530;
 }
 
 
@@ -300,7 +299,7 @@ a:after {
 	letter-spacing: 8px;
 	font-size: 100px;
 	font-weight: bold;
-	text-shadow: 2px 2px 2px #000;
+	text-shadow: #e88530 0 0 13px, #1e8eaf 5px 5px 5px, #e88530 0 0 13px,#e88530 0 0 13px, #e88530 0 0 13px, #1e8eaf 5px 5px 5px, #1e8eaf 5px 5px 5px, #1e8eaf 5px 5px 5px;
 }
 
 #headerwrap p {
@@ -401,11 +400,12 @@ a:after {
 .textdivider h1 {
 	color: white;
 	font-size: 40px;
+    color: #e88530;
 }
 
 .textdivider p {
 	color: white;
-	font-size: 25px;
+	font-size: 16px;
 }
 
 
@@ -634,4 +634,99 @@ a:after {
 		line-height: 38px;
 	}
 }
+
+
+
+
+/* Schedule Page */
+
+
+
+table {
+	width: 55em;
+	border-collapse:collapse;
+        border: 1px solid black;
+}
+
+tr, td, th {
+	border-top: 0px;
+	border-bottom: 0px;
+        text-align: center;
+}
+
+
+td {
+	width: 20%;
+        border: thin solid black;
+}
+
+td a {
+        color: white;
+}
+
+.schedule-nothing {
+        border: thin solid black;
+    
+}
+
+.schedule-event {
+	color: #FFFFFF;    
+	background-color: #e88530;
+}
+
+.schedule-class {
+	background-color: #1e8eaf;
+	color: #FFFFFF;	
+}
+
+.table-schedule tr:nth-child(even) {
+
+}
+
+.table-schedule tr:nth-child(odd) {
+    
+}
+
+.table-title {
+	background-color: #e88530;
+	color: #FFFFFF;
+}
+
+.location {
+        color:  #1e8eaf;
+}
+
+.emphasis, .question {
+        color: #e88530;
+}
+
+.alt_emphasis {
+        color: #1e8eaf;
+}
+
+@-moz-document url-prefix() {
+        fieldset {display: table-cell;}
+}
+
+
+
+
+/* Sponsors */
+h3 {
+    color: white;
+    background-color: #1e8eaf;
+    padding: 5px;
+}
+
+.package ul li, {
+    color: #e88530;
+}
+
+.cutout {
+    background-color: #e88530;
+    padding: 5px;
+}
+
+
+
 
