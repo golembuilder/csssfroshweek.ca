@@ -59,7 +59,8 @@ HEADER
     text-align: center;
     width: 130px;
     border-radius: 50%;
-    border: 4px solid rgba(255, 255, 255, .6);
+/*    border: 4px solid rgba(255, 255, 255, .6);*/
+    text-shadow: #e88530 0 0 13px, #1e8eaf 5px 5px 5px, #e88530 0 0 13px,#e88530 0 0 13px, #e88530 0 0 13px;
 }
 .timer_box h1{
     font-size: 48px;
