@@ -1,0 +1,22 @@
+/* Overrides for the various template, bootstrap, and soon.css elements */
+
+body {
+  background-color: black;  
+}
+/* soon.cs overrides */
+#slider {
+    background-color: black;
+    z-index: 0;
+    padding: 0px;
+    position: static;
+    margin: 10px 10px;
+}
+
+#slider li {
+    height: 50%;
+}
+
+.timer_box, .timer_box h1 {
+    text-shadow: none;
+    color: #1E8EAF;
+}
