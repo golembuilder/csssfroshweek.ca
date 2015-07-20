@@ -3,7 +3,8 @@
 body {
   background-color: black;  
 }
-/* soon.cs overrides */
+
+/* soon.css overrides */
 #slider {
     background-color: black;
     z-index: 0;
@@ -19,4 +20,19 @@ body {
 .timer_box, .timer_box h1 {
     text-shadow: none;
     color: #1E8EAF;
+}
+
+/* bootstrap.css overrides */
+
+.navbar-inverse {
+    background-color: #1E8EAF;
+    border-color: #1E8EAF;
+}
+
+h1 {
+    color:   #1E8EAF;
+}
+
+.navbar-inverse .navbar-nav > .active > a, navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+    background-color: #1E8EAF;
 }
