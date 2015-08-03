@@ -4,6 +4,10 @@ body {
   background-color: black;  
 }
 
+.contactList {
+    list-style-type: none;
+    text-align: left;
+}
 /* soon.css overrides */
 #slider {
     background-color: black;
@@ -22,17 +26,70 @@ body {
     color: #1E8EAF;
 }
 
+.teamMember img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.teamMember {
+    text-align: center;
+}
+
+.houseInfo {
+    display: block;
+    text-align: center;
+    verticle-align: middle;
+    height: 100px;
+    
+    background-color: #555;
+}
 /* bootstrap.css overrides */
+
+
+h1 {
+    color:   #1E8EAF;
+}
 
 .navbar-inverse {
     background-color: #1E8EAF;
     border-color: #1E8EAF;
 }
 
-h1 {
-    color:   #1E8EAF;
-}
-
-.navbar-inverse .navbar-nav > .active > a, navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
     background-color: #1E8EAF;
 }
+
+.navbar-header  a img {
+    background-color: #1E8EAF;
+}
+
+
+.carousel-inner>.item>img{
+	margin:0 auto;
+}
+
+.carousel-indicators{
+	bottom:-50px;
+}
+
+.carousel-indicators li{
+	border:2px solid #1e8eaf;
+}
+
+.carousel-indicators .active{
+	background-color:#e88530;
+	border:2px solid #e88530;
+}
+
+#carousel {
+    margin-top: 75px;
+}
+
+/* main.css overrides */
+
+#footerwrap, #footerwrap a {
+    background-color: #1E8EAF;
+    color: white;
+}
+
