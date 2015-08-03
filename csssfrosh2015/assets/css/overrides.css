@@ -37,7 +37,7 @@ body {
 }
 
 .houseInfo {
-    display: block;
+    display: inline-block;
     text-align: center;
     verticle-align: middle;
     height: 100px;
