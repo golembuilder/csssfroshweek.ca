@@ -43,7 +43,14 @@ body {
     height: 100px;
     background-color: #555;
 }
+
+.houseInfo img {
+    background-color: #333;
+    border: solid thin black;
+}
+
 /* bootstrap.css overrides */
+
 
 
 h1 {
