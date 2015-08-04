@@ -4,6 +4,9 @@ body {
   background-color: black;  
 }
 
+hr {
+    border-color: grey;
+}
 .contactList {
     list-style-type: none;
     text-align: left;
@@ -44,7 +47,6 @@ body {
 }
 
 .houseInfo img {
-    border: solid thin white;
     width: 125px;
     height: 128px;
 }
