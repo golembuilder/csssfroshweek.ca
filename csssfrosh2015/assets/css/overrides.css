@@ -99,5 +99,7 @@ h1 {
 #footerwrap, #footerwrap a {
     background-color: #1E8EAF;
     color: white;
+    margin-top: 10px;
+    padding-bottom: 5px;
 }
 
