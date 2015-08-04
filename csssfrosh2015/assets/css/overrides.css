@@ -40,20 +40,22 @@ body {
     display: inline-block;
     text-align: center;
     verticle-align: middle;
-    height: 100px;
-    background-color: #555;
+    height: auto;
 }
 
 .houseInfo img {
-    background-color: #333;
-    border: solid thin black;
-    height: 100px;
-    width: 300px;
+    border: solid thin white;
+    width: 125px;
+    height: 128px;
 }
 
 /* bootstrap.css overrides */
 
-
+.img-square {
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
 
 h1 {
     color:   #1E8EAF;
