@@ -98,6 +98,32 @@ h1 {
     margin-top: 75px;
 }
 
+
+
+.popover, .popover-title, .popover-content {
+    background-color: black;
+    border: thin solid #e88530;
+    border-shadow: none;
+}
+
+.houseInfo > button.btn.btn-default:hover, .houseInfo  > button.btn.btn-default:active, .houseInfo > button.btn.btn-default:focus {
+    background-color: initial;
+    border: none;
+}
+.popover-title {
+    color: #e88530;
+}
+
+.popover.right .arrow:after {
+  border-right-color: #e88530;
+}
+
+
+.houseInfo button {
+    border: none;
+}
+
+
 /* main.css overrides */
 
 #footerwrap, #footerwrap a {

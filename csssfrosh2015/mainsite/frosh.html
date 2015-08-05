@@ -510,30 +510,30 @@
                                 </div>
                                 
                                 <div class="row-fluid">
-                                    <div class="col-xs-12 col-md-12">
+                                    <div id="houseContainer" class="col-xs-12 col-md-12">
                                         <div id="imperative" class="houseInfo col-xs-12 col-sm-6 col-md-3">
-                                            <img src="assets/img/house/BASIC_tronLogo.png" alt="BASIC">
+                                            <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" title="House BASIC" data-placement="right" data-content="An old House, known for their complex plots and schemes that stumps even the most savy of politicians. Their heavy reliance on the House of GO TO has lost them many friends over the years. "><img src="assets/img/house/BASIC_tronLogo.png" alt="BASIC"></button>
                                         </div>
                                         <div id="declarative" class="houseInfo col-xs-12 col-sm-6 col-md-3">
-                                            <img src="assets/img/house/SQL_tronLogo.png" alt="SQL">
+                                            <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" title="House SQL" data-placement="right" data-content="A well engineered and stable House.  Relied on heavily by other Houses to keep their secrets and information safe. "><img src="assets/img/house/SQL_tronLogo.png" alt="SQL"></button>
                                         </div>
                                         <div id="objectOriented" class="houseInfo col-xs-12 col-sm-6 col-md-3">
-                                            <img src="assets/img/house/Cpp_tronLogo.png" alt="C++">
+                                            <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" title="House C++" data-placement="right" data-content="Popular and well connected with agents and assets everywhere.  One of the two most powerful Houses around. "><img src="assets/img/house/Cpp_tronLogo.png" alt="C++"></button>
                                         </div>
                                         <div id="functional" class="houseInfo col-xs-12 col-sm-6 col-md-3">
-                                            <img src="assets/img/house/Haskell_tronLogo.png" alt="Haskell">
+                                            <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" title="House Haskell" data-placement="right" data-content="A relatively new House that arose from the academies. Members of this House are known for their speed, intellegence, and concise (if recursive) speech.  They know they can do anything and are out to prove it."><img src="assets/img/house/Haskell_tronLogo.png" alt="Haskell"></button>
                                         </div>
                                         <div id="procedural" class="houseInfo col-xs-12 col-sm-6 col-md-3">
-                                            <img src="assets/img/house/C_tronLogo.png" alt="C">
+                                            <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" title="House C" data-placement="right" data-content="The old warhorse, fallen from grace years ago but finding a revival in places where restrictions are hard and speed is very important."><img src="assets/img/house/C_tronLogo.png" alt="C"></button>
                                         </div>
                                         <div id="logic" class="houseInfo col-xs-12 col-sm-6 col-md-3">
-                                            <img src="assets/img/house/Prolog_tronLogo.png" alt="Prolog">
+                                            <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" title="House Prolog" data-placement="right" data-content="Known for their logic, knowledge, and love of rules.  Members of this house are always fiddling with their automatons, believing that they can bring them to life! Such folly!. "><img src="assets/img/house/Prolog_tronLogo.png" alt="Prolog"></button>
                                         </div>
                                         <div id="symbolic" class="houseInfo col-xs-12 col-sm-6 col-md-3">
-                                            <img src="assets/img/house/Lisp_tronLogo.png" alt="Lisp">
+                                            <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" title="House Lisp" data-placement="right" data-content="Like House Prolog, these members also share a love of fiddling with automatons, however they value more symbolic representations of rules and logic. "><img src="assets/img/house/Lisp_tronLogo.png" alt="Lisp"></button>
                                         </div>
                                         <div id="multi" class="houseInfo col-xs-12 col-sm-6 col-md-3">
-                                            <img src="assets/img/house/Java_tronLogo.png" alt="Java">
+                                            <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" title="House Java" data-placement="right" data-content="One of the most powerful Houses around, they spread far and wide, usurping the mighty House C++ for the Silicon Throne. They are everywhere and do everything."><img src="assets/img/house/Java_tronLogo.png" alt="Java"></button>
                                         </div>
                                     </div>
                                 </div>
@@ -924,6 +924,11 @@
         
        
         google.maps.event.addDomListener(window, 'load', initialize); 
+        </script>
+        <script>
+            $(function () {
+                $('[data-toggle="popover"]').popover()
+            })
         </script>
 	
   </body>
