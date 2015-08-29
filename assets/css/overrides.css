@@ -60,6 +60,24 @@ hr {
     height: 128px;
 }
 
+.logo {
+    display: inline-block;
+    height: auto;
+}
+
+.gold {
+    width: 300px;
+}
+
+.copper {
+    width: 200px;
+}
+
+.silicon {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
 /* bootstrap.css overrides */
 
 .img-square {
